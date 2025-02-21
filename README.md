@@ -1,6 +1,9 @@
 # Dummy Demonstration Repository
 This is a dummy repository to demonstrate directory structure, file trees, linking dois, and editing a README.md file 
 
+# DOI
+[![DOI](https://zenodo.org/badge/936723383.svg)](https://doi.org/10.5281/zenodo.14907171)
+
 
 ## Links to analysis
 
@@ -12,5 +15,26 @@ These are the links to the analysis files viewable on GitHub (.md). The .RMD fil
 
 ## File Tree
 
+```r
+fs::dir_tree()
+```
 
+```bash
+├── 01_Analysis
+│   ├── 01_Script.Rmd
+│   ├── 01_Script.html
+│   ├── 01_Script.md
+│   └── TipsR.csv       # Raw data for Analysis part 1, read into 01_Script.Rmd
+├── 02_Analysis         # Analysis direcotry for part 2
+│   ├── 02_Script.Rmd
+│   ├── 02_Script.html
+│   └── 02_Script.md    # GitHub Formatted markdown
+├── Dummy.Rproj         # Top level directory .Rproj file = working directory
+├── README.html
+└── README.md           # Top level directory README
+```
+## Instructions for reproducing results 
+Run the scripts in order as they appear below. 
 
+- 01_Script.rmd
+- 02_Script.rmd
