@@ -1,0 +1,28 @@
+---
+title: "01_Analysis"
+author: "Zachary Noel"
+date: "2025-02-21"
+output: 
+  md_document:
+    variant: gfm
+  html_document:
+    toc: true
+    toc_float: true
+  word_document:
+  pdf_document:
+---
+
+
+## Analysis 1
+This is an example of organizing your analysis on GitHub
+
+```{r}
+library(knitr)
+```
+
+### Example of relative file paths
+```{r}
+datum <- read.csv("01_Analysis/TipsR.csv", na.strings = ".")
+kable(datum)
+```
+
