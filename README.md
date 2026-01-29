@@ -8,18 +8,5 @@ This is normal text to edit my readme
 Here is new text, attempting to break our repository. 
 here is another change to my readme.
 
-this is change number 6
 
-here is another edit, edit number 5
-
-
-this is me editing my readme
-
-here is change number 7
-
-change number 9
-
-change number 8
-
-Change number 10 
 
