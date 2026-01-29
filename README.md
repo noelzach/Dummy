@@ -15,15 +15,11 @@ here is another edit, edit number 5
 
 this is me editing my readme
 
-
 here is change number 7
 
 change number 9
 
 change number 8
 
-
-
-
-Chage number 10 
+Change number 10 
 
